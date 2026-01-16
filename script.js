@@ -14,5 +14,6 @@
         squares.forEach((sq) => {
           sq.style.backgroundColor = "rgb(230, 230, 250)"; // Lavender
         });
-      });
+      
+	  });
     });
