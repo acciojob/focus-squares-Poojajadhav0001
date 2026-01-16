@@ -2,17 +2,17 @@
  const squares = document.querySelectorAll(".square");
 
     squares.forEach((current) => {
-      current.addEventListener("mouseenter", () => {
+      current.addEventListener("mouseover", () => {
         squares.forEach((sq) => {
           if (sq !== current) {
-            sq.style.backgroundColor = "#6F4E37"; // Coffee
+            sq.style.backgroundColor = "rgb(111, 78, 55)"; // Coffee
           }
         });
       });
 
-      current.addEventListener("mouseleave", () => {
+      current.addEventListener("mouseout", () => {
         squares.forEach((sq) => {
-          sq.style.backgroundColor = "#E6E6FA"; // Lavender
+          sq.style.backgroundColor = "rgb(230, 230, 250)"; // Lavender
         });
       });
     });
